@@ -6,6 +6,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ```bash
 ng deploy --base-href=/dina_web/
 ```
+This will build the project and then copy those files over to the specialized github pages branch. The github pages branch should never be directly updated by anyone with the exception of this command.
 
 ## Development server
 
