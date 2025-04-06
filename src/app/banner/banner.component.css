@@ -24,3 +24,12 @@ figure{
     width: 100%;
     height: 100%;
 }
+
+a figure i {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+a:hover figure i {
+    top: -10px;
+}
