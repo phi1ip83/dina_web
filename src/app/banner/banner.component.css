@@ -1,12 +1,15 @@
-.test{
+.test1{
     background-color: blue;
+}
+.test2{
+    background-color: green;
 }
 .figure-caption{
     color: white;
 }
 
 #top{
-    background-color: red;
+    
     color: white;
     padding: 2px;
 }
@@ -17,6 +20,37 @@
 }
 #banner{
     padding: 0px;
+    background-color: red;
+    align-content: center;
+    text-align: center;
+}
+#image{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    max-width: 110px;
+    max-height: 140px;
+    
+    background-color: white;
+    border: 1px solid black;
+
+    rotate: 345deg;
+    position: absolute;
+    float: left ;
+
+    
+}
+img{
+    max-width: 100px;
+    max-height: 70px;
+}
+@media (max-width: 576px) {
+    #image{
+        float: none;
+        display: inline-block;
+        position: relative;
+        rotate: 0deg;
+    }
 }
 
 figure{

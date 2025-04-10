@@ -1,9 +1,15 @@
 <div id="banner" class="container-fluid">
+    <div id="image" class="container-fluid">
+        <img src="./picture.jpg" alt="logo">
+    </div>
+    
     <div id="top" class="container-fluid"> 
         <p class="text-center">Welcome</p>
         <h1 class="text-center">Dina Dos Santos</h1>
     </div>
-    <div id="bottom" class="d-flex flex-sm-row flex-column">
+    
+    <div id="bottom" class="container-fluid d-flex flex-sm-row flex-column mt-0">
+        <span class="flex-fill"></span>
         <a class="flex-fill " [routerLink]="'.'">
             <figure class="figure text-center">
                 <i class="bi bi-lock-fill h1 figure-img"></i>
@@ -24,7 +30,5 @@
         </a>
 
     </div>
-    <div id="image">
-        <img src="./picture.jpg" alt="logo" width="100" height="100">
-    </div>
+    
 </div>
