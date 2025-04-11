@@ -1,0 +1,74 @@
+.diamond {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: red;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    z-index: 3;
+}
+.diamond:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: red;
+}
+.diamond2 {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-bottom-color: rgb(255, 78, 78);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 2;
+}
+.diamond2:after {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: rgb(255, 78, 78);
+}
+.diamond3 {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: rgb(255, 129, 129);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.diamond3:after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: rgb(255, 129, 129);
+}
+.parent{
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 60px;
+}
+.reverse{
+    rotate: 180deg;
+}
+
+h1{
+    display: inline-block;
+    color: red;
+}
