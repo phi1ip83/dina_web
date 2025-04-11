@@ -94,3 +94,11 @@ a{
     border-top: transparent;
     margin: 10px;
 }
+a figure div{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+a:hover figure div{
+    top: -10px;
+}
