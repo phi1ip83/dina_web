@@ -1,14 +1,14 @@
 .filler{
     background-color: black;
     color: white;
-    height: 30px;
+    height: 40px;
     width:40px;
     padding-top: 2px;
 
 
 }
 .bot{
-    top: 50px;
+    top: 60px;
 
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -18,7 +18,7 @@
     z-index: 1;
 }
 .mid{
-    top: 30px;
+    top: 40px;
     background-color: red;
     
     border-left: 20px solid transparent;
