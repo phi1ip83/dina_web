@@ -12,7 +12,7 @@
     content: '';
     position: absolute;
     left: -20px;
-    top: 20px;
+    top: 19px;
     width: 0;
     height: 0;
     border: 20px solid transparent;
@@ -32,7 +32,7 @@
     content: '';
     position: absolute;
     left: -15px;
-    top: 15px;
+    top: 14px;
     width: 0;
     height: 0;
     border: 15px solid transparent;
@@ -52,7 +52,7 @@
     content: '';
     position: absolute;
     left: -10px;
-    top: 10px;
+    top: 9px;
     width: 0;
     height: 0;
     border: 10px solid transparent;
