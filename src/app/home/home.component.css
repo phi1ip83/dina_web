@@ -3,6 +3,8 @@
     color: white;
     height: 30px;
     width:40px;
+    padding-top: 2px;
+
 
 }
 .bot{
@@ -29,8 +31,9 @@
 .mid, .bot{
     width: 0; 
     height: 0px;
+    padding: 0px;
+    margin: 0px;
     
-
 }
 .filler, .mid, .bot{
     position: absolute;
