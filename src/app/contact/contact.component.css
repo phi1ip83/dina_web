@@ -68,7 +68,29 @@
     rotate: 180deg;
 }
 
+
+.red{
+    color: Red;
+}
+.grey{
+    color: lightslategray;
+}
 h1{
     display: inline-block;
-    color: red;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.icon-wrap{
+    color: white;
+    background-color: black;
+    padding:3px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+a{
+    color: black;
+    border: 1px solid lightgray;
+    border-top: transparent;
+    margin: 10px;
 }
