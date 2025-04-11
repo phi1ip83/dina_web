@@ -1,0 +1,43 @@
+.filler{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width:40px;
+
+}
+.bot{
+    top: 50px;
+
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid red;
+
+    z-index: 1;
+}
+.mid{
+    top: 30px;
+    background-color: red;
+    
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid black;
+
+    z-index: 2;
+}
+.mid, .bot{
+    width: 0; 
+    height: 0px;
+    
+
+}
+.filler, .mid, .bot{
+    position: absolute;
+}
+
+.parent{
+    position: relative;
+    width: 40px;
+    height: 100%;
+}
